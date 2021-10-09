@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Collatz Conjecture</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header style = "color:black" id="header" class="alt">
+				<h1 id="logo"><a href="index.html">Erik Hodneland <span></span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Welcome</a></li>
+						<li class="submenu">
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-laptop"></span>
+						<h2>Collatz Conjecture Program in Java</h2>
+
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<div class="row gtr-150">
+								<div class="col-4 col-12-narrower">
+
+									<!-- Sidebar -->
+										<div class="sidebar">
+											<section>
+												<a href="#" class="image featured"><img src="images/Java Failure.JPG" alt=""/></a>
+												<header>
+													<h3>Overflow</h3>
+												</header>
+												<p>The main reason the Collatz Conjecture is so difficult is because of the infinite possibilities of integers. In theory, the program I created could be put on a loop to test every possible integer. The scale of these numbers is too large for any programing language to compute.</p>
+											</section>
+
+											<section>
+												<a href="#" class="image featured"><img src="images/Java try catch.JPG" alt=""/></a>
+												<header>
+													<h3>Try-Catch</h3>
+												</header>
+												<p>To prevent the program from crashing when an integer reached the 32 bit limit of Java, I implemented a "try-catch" algorithm. This way, the program can run as efficiently as possible while staying in the scope of possible and impossible calculations.</p>
+											</section>
+										</div>
+
+								</div>
+								<div class="col-8 col-12-narrower imp-narrower">
+
+									<!-- Content -->
+										<div class="content">
+											<section>
+												<a class="image featured"><img src="images/Java Header.JPG" alt="" /></a>
+												<header>
+													<h3>Goals and Proceedure</h3>
+												</header>
+												<p>The Collatz Conjecture is one of the simplest and most puzzling unsolved mathematical problems. In short, the idea states that if an integer is positive to divide it by two. If an integer is negative, multiply it by three and add one. The resulting integers are hailstone numbers, and all hailstone numbers should lead to an infinite loop starting with four, then to two, then to one. Almost all integers up to the billions have been tested and all end up in the "4-2-1" loop.</p>
+												<p>This project was not aimed to find a solution to the conjecture, but to map out hailstone numbers for certain starting integers. The mind-boggling fact behind the Collatz Conjecture is that there is no truly defined pattern between an integer and its hailstone numbers. As seen almost everywhere in nature, patterns tend to connect in multiple areas. If a pattern can be found, not only can the conjecture be proven true or false, but patterns for encryption and other situations can be developed. This uses three efficient algorithms to find the hailstone numbers, find the largest hailstone number, and display the hailstone tree on a simple user interface.</p>
+												<p>The main problem I ran into when programing was involving the gigantic values that some hailstone values reached. If a value was too large, it wouldn't compute because it would be out of the range of Java's 32 bit integer limit. In response, I created a try-catch algorithm that displayed an error message on the interface if this limit was reached. This avoided Java from running indefinitely and the program ultimately crashing.</p>
+											</section>
+										</div>
+
+								</div>
+							</div>
+						</section>
+
+					<!-- Two -->
+						<section class="wrapper style1 container special">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h3>Previous Project</h3>
+										</header>
+										<footer>
+											<ul class="buttons">
+												<li><a href="movingPiston.html" class="button small">Learn More</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h3>​</h3>
+										</header>
+										
+										<footer>
+											<ul class="buttons">
+												<li><a href="index.html" class="button small">Home</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h3>Next Project</h3>
+										</header>
+										
+										<footer>
+											<ul class="buttons">
+												<li><a href="arduinoTemp.html" class="button small">Learn More</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+							</div>
+						</section>
+
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer"></footer>
+
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Arduino Thermometer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header style = "color:black" id="header" class="alt">
+				<h1 id="logo"><a href="index.html">Erik Hodneland <span></span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Welcome</a></li>
+						<li class="submenu">
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-laptop"></span>
+						<h2>Arduino Thermometer With LCD</h2>
+
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<div class="row gtr-150">
+								<div class="col-4 col-12-narrower">
+
+									<!-- Sidebar -->
+										<div class="sidebar">
+											<section>
+												<a href="#" class="image featured"><img src="images/Temp Chart.JPG" alt=""/></a>
+												<header>
+													<h3>Temperature Formula</h3>
+												</header>
+												<p>The thermistor changes its resistance due to a change in temperature. By measuring the voltage from the thermistor at room temperature and at 59 degrees, a slope and equation can be made. Although the relation between resistance and temperature is not quite linear, a linear approximation can be used to convert the voltage reading and temperature. </p>
+											</section>
+
+											<section>
+												<a href="#" class="image featured"><img src="images/Temp LCD.jpeg" alt=""/></a>
+												<header>
+													<h3>LCD Monitor</h3>
+												</header>
+												<p>Adding an LCD to this project helped bring a connection between the user and the project. By adding a potentiometer to the third pin of the LCD, the brightness could be controlled by increasing or decreasing the voltage.</p>
+											</section>
+										</div>
+
+								</div>
+								<div class="col-8 col-12-narrower imp-narrower">
+
+									<!-- Content -->
+										<div class="content">
+											<section>
+												<a class="image featured"><img src="images/Temp Circuit.jpeg" alt="" /></a>
+												<header>
+													<h3>Goals and Proceedure</h3>
+												</header>
+												<p>The goal of this project was to create a device that could detect and display the change in temperature of the atmosphere. The original design was meant mainly for indoor use and for temperatures as close to room temperature as possible. The further the temperature gets from 68 degrees Fahrenheit, the less accurate it will be. Using both Arduino circuiting skills and thermodynamic skills, the device that acts as a very sensitive and accurate thermometer.</p>
+                                                <p>The whole device counts on the unique ability of the thermistor. Because resistance in circuits can fluctuate due to the change in atmosphere, a mathematical pattern can be determined. The temperature reading circuit consists of the thermistor and a simple resistor. Using Ohm's Law for resistance in series, one pin of the Arduino can read the voltage due to the thermistor. From there, a linear equation can turn that voltage into a temperature reading. </p>
+                                                <p>As with many hardware projects, my main problem came with wiring. My breadboard is not the best and the 5V wire for both the LCD display and thermistor circuit came loose. This can be especially difficult when dealing with an LCD that has 16 pins that all need to be connected to 5V, ground, or the Arduino. If I were to do the project again, I would get a better breadboard.</p>
+
+											</section>
+										</div>
+
+								</div>
+							</div>
+						</section>
+
+					<!-- Two -->
+						<section class="wrapper style1 container special">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h3>Previous Project</h3>
+										</header>
+										<footer>
+											<ul class="buttons">
+												<li><a href="collatzConjecture.html" class="button small">Learn More</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h3>​</h3>
+										</header>
+										
+										<footer>
+											<ul class="buttons">
+												<li><a href="index.html" class="button small">Home</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h3>Next Project</h3>
+										</header>
+										
+										<footer>
+											<ul class="buttons">
+												<li><a href="projectCollage.html" class="button small">Learn More</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+							</div>
+						</section>
+
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer"></footer>
+
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
