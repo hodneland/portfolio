@@ -337,6 +337,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 50%;
+			padding-bottom: 1.5em;
 		}
 
 		.row > .off-6 {
